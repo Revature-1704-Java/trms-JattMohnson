@@ -1,0 +1,79 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="trms.css">
+</head>
+
+<h1>Reimbursement Submission Form</h1>
+	<table frame="box", border="1", align="center">
+	<tr>
+	<td>
+        <form action="SubmissionServlet">
+                <div class="container">
+                <ul style="list-style-type:none">
+
+
+                 <li>
+                 	<label><b>Start Date:</b></label>
+                 	<input type="text" placeholder="Enter Class Start Date" name="classstart" required>
+                  </li>
+              
+              	 <li>	
+                  	<label><b>Start Time:</b></label>
+                 	 <input type="text" placeholder="Enter Class Start Time" name="timestart" required>
+                 </li>	 
+              
+              	 <li>	
+                  	<label><b>Class Location:</b></label>
+                 	 <input type="text" placeholder="Enter Location" name="classlocation" required>
+                 </li>	 
+                 
+                   <li>
+                 	<label><b>Class Description:</b></label>
+                 	<input type="text" placeholder="Enter Class Description" name="classdescrip" required>
+                  </li>
+              
+              	 <li>	
+                  	<label><b>Class Cost:</b></label>
+                 	 <input type="text" placeholder="Enter Class Cost" name="classcost" required>
+                 </li>	 
+                 
+                 <li><b>Grading Type:</b></li>
+                 <li>
+  					<input type="radio" name="gradingref" value="1"> GPA Gradescale without presentation<br>
+ 					<input type="radio" name="gradingref" value="2"> GPA Gradescale with presentation<br>
+  					<input type="radio" name="gradingref" value="3"> Letter Grade without presentation<br>
+  					<input type="radio" name="gradingref" value="4"> Letter Grade with presentation<br>
+                 </li>
+                 
+                 <li><b>Event Type:</b></li>
+                 <li>
+  					<input type="radio" name="eventtype" value="1"> University Course<br>
+ 					<input type="radio" name="eventtype" value="2"> Seminar<br>
+  					<input type="radio" name="eventtype" value="3"> Certification Preparation Class<br>
+  					<input type="radio" name="eventtype" value="4"> Certification<br>
+  					<input type="radio" name="eventtype" value="5"> Technical Training<br>
+  					<input type="radio" name="eventtype" value="6"> Other<br>
+                 </li>
+                 
+                  <li>	
+                  	<label><b>Justification:</b></label>
+                 	 <input type="text" placeholder="Enter Justification" name="justification" required>
+                 </li>	 
+                 
+                  <li>	
+                  	<label><b>Hours Missed:</b></label>
+                 	 <input type="text" placeholder="Enter Hours Missed" name="hoursmissed" required>
+                 </li>	 
+                 
+              	<li>
+                  <button type="submit">Submit</button>
+                 </li>
+                  </ul>
+                </div>
+              
+              </form>
+        </td>
+        </tr>      
+		</table>
+</html>    

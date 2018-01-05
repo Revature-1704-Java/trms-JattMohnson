@@ -5,7 +5,7 @@
   <groupId>com.revature</groupId>
   <artifactId>trms</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <packaging>jar</packaging>
+  <packaging>war</packaging>
 
   <name>trms</name>
   <url>http://maven.apache.org</url>
@@ -34,5 +34,8 @@
 			<version>2.5</version>
 			<scope>provided</scope>
 		</dependency>
+	
+		
+		
   </dependencies>
 </project>
